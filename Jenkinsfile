@@ -5,8 +5,8 @@ pipeline{
     }
     environment{
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')
-        APP_NAME = 'webapplication'
-        USER_NAME=''
+        APP_NAME = 'jenkins-docker-project'
+        USER_NAME='kikikameni'
     }
     stages{
         stage('Build'){
